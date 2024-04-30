@@ -5,8 +5,36 @@
 }
 .carousel-image {
     max-width: 0 auto;
-    max-height: 800px;
+    max-height: 0 auto;
     /* Defina o tamanho máximo conforme necessário */
     margin: 0 auto;
     /* Centraliza a imagem na tela */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    /* Cor de fundo do rodapé */
+    color: #fff;
+    /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+}
+
+.text-light {
+    font-size: 14px;
+    /* Tamanho do texto */
+    opacity: 0.7;
+    /* Opacidade do texto para dar um efeito de "light" */
+}
+
+.text-light:hover {
+    opacity: 1;
+    /* Opacidade total quando o mouse passa por cima */
+    transition: opacity 0.3s ease-in-out;
+    /* Transição suave de opacidade */
 }
