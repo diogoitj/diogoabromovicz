@@ -3,3 +3,10 @@
         width: 300px;
     }
 }
+.carousel-image {
+    max-width: 0 auto;
+    max-height: 800px;
+    /* Defina o tamanho máximo conforme necessário */
+    margin: 0 auto;
+    /* Centraliza a imagem na tela */
+}
