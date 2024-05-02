@@ -38,3 +38,24 @@ footer {
     transition: opacity 0.3s ease-in-out;
     /* Transição suave de opacidade */
 }
+
+/* styles.css */
+.contact-section {
+    background-color: #ecdaf3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact-link {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+    margin: 10px;
+}
